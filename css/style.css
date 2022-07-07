@@ -1,0 +1,117 @@
+* {
+    box-sizing: border-box;
+}
+.container{
+    margin: 0 auto;
+    width: 500px;
+    height: 660px;
+    border: 1px solid;
+}
+.top-container{
+    width: 100%;
+    height: 110px;
+    background-color: rgb(31, 30, 30);
+    color: #ffffff;
+    border: 1px solid #000000;
+    font-weight: 700;
+    font-size: 50px;
+    padding-left: 460px;
+}
+.main-container{
+    width: 100%;
+    height: 550px;
+    display: flex;
+}
+.left-container{
+    flex: 3;
+}
+.right-container{
+    flex: 1;
+}
+.top-left-list{
+    display: flex;
+    height: 110px;
+}
+.left-side-1{
+    display: flex;
+    height: 110px;
+    text-align: center;
+    font-size: 32px;
+}
+.left-side-2{
+    display: flex;
+    height: 110px;
+    text-align: center;
+    font-size: 32px;
+}
+.left-side-3{
+    display: flex;
+    height: 110px;
+    text-align: center;
+    font-size: 32px;
+}
+.left-button{
+    flex: 2;
+    border: 1px solid;
+    text-align: center;
+    color: #000000;
+    font-size: 40px;
+    font-weight: 400;
+}
+.right-button{
+    flex: 1;
+    border: 1px solid;
+    text-align: center;
+    padding-top: 25px;
+}
+.first-btn-1{
+    flex: 1;
+    border: 1px solid;
+}
+.first-btn-2{
+    flex: 1;
+    border: 1px solid;
+}
+.first-btn-3{
+    flex: 1;
+    border: 1px solid;
+}
+.second-btn-1{
+    flex: 1;
+    border: 1px solid;
+}
+.second-btn-2{
+    flex: 1;
+    border: 1px solid;
+}
+.second-btn-3{
+    flex: 1;
+    border: 1px solid;
+}
+.third-btn-1{
+    flex: 1;
+    border: 1px solid;
+}
+.third-btn-2{
+    flex: 1;
+    border: 1px solid;
+}
+.third-btn-3{
+    flex: 1;
+    border: 1px solid;
+}
+.bottom-left-side{
+    height: 110px;
+    border: 1px solid;
+    text-align: center;
+    font-size: 32px;
+}
+.right-box{
+    height: 110px;
+    border: 1px solid #000000;
+    background-color: orange;
+    color: #ffffff;
+    font-size: 35px;
+    font-weight: 900;
+    text-align: center;
+}
